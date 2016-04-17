@@ -45,4 +45,4 @@ $(OBJ_FOLDER):
 	mkdir -p $(OBJ_FOLDER)
 
 clean:
-	$(RM) $(OBJ_FOLDER)/*.o $(LIBRARY)
+	$(RM) $(OBJ_FOLDER)/*.o $(LIBRARY) $(EXECUTABLE)
