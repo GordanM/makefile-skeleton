@@ -1,5 +1,5 @@
 #############################
-###   skeleton Makefile   ###
+###   Makefile skeleton   ###
 #############################
 
 INC_FOLDER = ./includes
@@ -12,9 +12,6 @@ AR = ar
 # Debug
 CXXFLAGS = -g3 -O0 -Wall 
 
-# Release
-#CXXFLAGS = -O2 -Wall
-
 ARFLAGS = rcs
 INC = -I$(INC_FOLDER)
 
@@ -23,12 +20,12 @@ LDLIBS =
 
 RM = rm -f
 
-SOURCES = 
+SOURCES = main.cpp foo.cpp bar.cpp
 
 OBJECTS = $(patsubst %.cpp, $(OBJ_FOLDER)/%.o, $(SOURCES)) 
 
-LIBRARY = 
-EXECUTABLE = 
+LIBRARY = libfoobar.a
+EXECUTABLE = foobar
 
 all: $(LIBRARY) $(EXECUTABLE)
 

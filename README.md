@@ -1,17 +1,19 @@
-# Skeleton for a C++ Makefile project
+## Skeleton for a C++ Makefile project
 
-Useful starting point for creating a C++ Makefile project (to creat an executable
-or a statically compiled library).
+Useful starting point for creating a C++ Makefile project or analyzing the GNU Make syntax.
 
-The "includes" folder should contain header files with a *.hpp extension, 
-while the "sources" folder should contain source files with a *.cpp extension. 
+The "includes" directory should contain user define header files that will be used in the project. 
+The "sources" directory should contain source files with a *.cpp extension. 
 
-The following lines need to be edited:
-* SOURCES = foo.cpp bar.cpp
-* LIBRARY = foobar.a    (In case you are building a static library)
-* EXECUTABLE = foobar   (In case you are creating an application)
+Modify this project at your own convenience.
 
-To create the folder structure run the following command:
-	$ mkdir -p sources includes
+### References
+
+* https://www.gnu.org/software/make/
+* https://www.gnu.org/software/make/manual/make.html
+
+## License
+
+This repository is released under the [MIT license](LICENSE.txt).
 
 Created by Gordan Markuš <gordan.markus@gmail.com>
